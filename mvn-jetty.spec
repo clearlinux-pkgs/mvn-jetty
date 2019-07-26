@@ -4,7 +4,7 @@
 #
 Name     : mvn-jetty
 Version  : 6.1.25
-Release  : 7
+Release  : 8
 URL      : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source0  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source1  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830.jar
@@ -63,8 +63,17 @@ Source53  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/web
 Source54  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
 Source55  : https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar
 Source56  : https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
-Source57  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
-Source58  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source57  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
+Source58  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
+Source59  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
+Source60  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+Source61  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+Source62  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
+Source63  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
+Source64  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
+Source65  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source66  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source67  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -257,11 +266,38 @@ cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jett
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25
 cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
 
 
 %files
@@ -323,8 +359,16 @@ cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/proj
 /usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
+/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
+/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar
 /usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 /usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
+/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
+/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
+/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
