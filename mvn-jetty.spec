@@ -4,7 +4,7 @@
 #
 Name     : mvn-jetty
 Version  : 6.1.25
-Release  : 9
+Release  : 10
 URL      : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source0  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source1  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830.jar
