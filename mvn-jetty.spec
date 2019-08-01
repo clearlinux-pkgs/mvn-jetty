@@ -4,7 +4,7 @@
 #
 Name     : mvn-jetty
 Version  : 6.1.25
-Release  : 14
+Release  : 15
 URL      : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source0  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source1  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830.jar
@@ -83,10 +83,12 @@ Source73  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-
 Source74  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
 Source75  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
 Source76  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
-Source77  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
-Source78  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
-Source79  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
-Source80  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+Source77  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
+Source78  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
+Source79  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
+Source80  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source81  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source82  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -339,17 +341,23 @@ cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14
 cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14
-cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25
-cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25
-cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
 
 
 %files
@@ -433,6 +441,8 @@ cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/proj
 /usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
 /usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
+/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
+/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
 /usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
