@@ -4,7 +4,7 @@
 #
 Name     : mvn-jetty
 Version  : 6.1.25
-Release  : 25
+Release  : 26
 URL      : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source0  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.jar
 Source1  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.12.v20180830/jetty-client-9.4.12.v20180830.jar
@@ -15,142 +15,152 @@ Source5  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continua
 Source6  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.24.v20180105/jetty-continuation-9.2.24.v20180105.pom
 Source7  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.12.v20180830/jetty-continuation-9.4.12.v20180830.jar
 Source8  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.12.v20180830/jetty-continuation-9.4.12.v20180830.pom
-Source9  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar
-Source10  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.pom
-Source11  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.jar
-Source12  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.pom
-Source13  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar
-Source14  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.pom
-Source15  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom
-Source16  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar
-Source17  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.pom
-Source18  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.jar
-Source19  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.pom
-Source20  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.jar
-Source21  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.pom
-Source22  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/7.0.1.v20091125/jetty-project-7.0.1.v20091125.pom
-Source23  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.12.v20150709/jetty-project-9.2.12.v20150709.pom
-Source24  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.24.v20180105/jetty-project-9.2.24.v20180105.pom
-Source25  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.3.19.v20170502/jetty-project-9.3.19.v20170502.pom
-Source26  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.3.24.v20180605/jetty-project-9.3.24.v20180605.pom
-Source27  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.12.v20180830/jetty-project-9.4.12.v20180830.pom
-Source28  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.18.v20190429/jetty-project-9.4.18.v20190429.pom
-Source29  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.jar
-Source30  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.pom
-Source31  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.jar
-Source32  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.pom
-Source33  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.jar
-Source34  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.pom
-Source35  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar
-Source36  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.pom
-Source37  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.jar
-Source38  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.pom
-Source39  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.jar
-Source40  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.pom
-Source41  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.jar
-Source42  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.pom
-Source43  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.jar
-Source44  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.pom
-Source45  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.jar
-Source46  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.pom
-Source47  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.jar
-Source48  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.pom
-Source49  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.jar
-Source50  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.pom
-Source51  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.jar
-Source52  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.pom
-Source53  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.jar
-Source54  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.pom
-Source55  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.jar
-Source56  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.pom
-Source57  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar
-Source58  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.pom
-Source59  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar
-Source60  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.jar
-Source61  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.jar
-Source62  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
-Source63  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.jar
-Source64  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.pom
-Source65  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.jar
-Source66  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.pom
-Source67  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.jar
-Source68  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.pom
-Source69  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.jar
-Source70  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.pom
-Source71  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.jar
-Source72  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.pom
-Source73  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
-Source74  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom
-Source75  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom
-Source76  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar
-Source77  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom
-Source78  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518/javax.servlet-2.5.0.v201103041518.pom
-Source79  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
-Source80  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
-Source81  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
-Source82  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar
-Source83  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.pom
-Source84  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar
-Source85  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.pom
-Source86  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar
-Source87  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom
-Source88  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
-Source89  : https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar
-Source90  : https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
-Source91  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar
-Source92  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.pom
-Source93  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.jar
-Source94  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.pom
-Source95  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.jar
-Source96  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.pom
-Source97  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.jar
-Source98  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.pom
-Source99  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.jar
-Source100  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.pom
-Source101  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.jar
-Source102  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.pom
-Source103  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.jar
-Source104  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.pom
-Source105  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.jar
-Source106  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.pom
-Source107  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.jar
-Source108  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.pom
-Source109  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar
-Source110  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.pom
-Source111  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.jar
-Source112  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.pom
-Source113  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.jar
-Source114  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.pom
-Source115  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.jar
-Source116  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.pom
-Source117  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.jar
-Source118  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.pom
-Source119  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.jar
-Source120  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.pom
-Source121  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.jar
-Source122  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.pom
-Source123  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.jar
-Source124  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.pom
-Source125  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.jar
-Source126  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.pom
-Source127  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom
-Source128  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.pom
-Source129  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
-Source130  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
-Source131  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
-Source132  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
-Source133  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom
-Source134  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
-Source135  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
-Source136  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
-Source137  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
-Source138  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
-Source139  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
-Source140  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
-Source141  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
-Source142  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
-Source143  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
-Source144  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+Source9  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429/jetty-continuation-9.4.18.v20190429.jar
+Source10  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429/jetty-continuation-9.4.18.v20190429.pom
+Source11  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar
+Source12  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.pom
+Source13  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.jar
+Source14  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.pom
+Source15  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.18.v20190429/jetty-http-9.4.18.v20190429.jar
+Source16  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.18.v20190429/jetty-http-9.4.18.v20190429.pom
+Source17  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar
+Source18  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.pom
+Source19  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom
+Source20  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar
+Source21  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.pom
+Source22  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.18.v20190429/jetty-io-9.4.18.v20190429.jar
+Source23  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.18.v20190429/jetty-io-9.4.18.v20190429.pom
+Source24  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.jar
+Source25  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.pom
+Source26  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.jar
+Source27  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.pom
+Source28  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/7.0.1.v20091125/jetty-project-7.0.1.v20091125.pom
+Source29  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.12.v20150709/jetty-project-9.2.12.v20150709.pom
+Source30  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.24.v20180105/jetty-project-9.2.24.v20180105.pom
+Source31  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.3.19.v20170502/jetty-project-9.3.19.v20170502.pom
+Source32  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.3.24.v20180605/jetty-project-9.3.24.v20180605.pom
+Source33  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.12.v20180830/jetty-project-9.4.12.v20180830.pom
+Source34  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.4.18.v20190429/jetty-project-9.4.18.v20190429.pom
+Source35  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.jar
+Source36  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.pom
+Source37  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.jar
+Source38  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.pom
+Source39  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.jar
+Source40  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.pom
+Source41  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.18.v20190429/jetty-security-9.4.18.v20190429.jar
+Source42  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.18.v20190429/jetty-security-9.4.18.v20190429.pom
+Source43  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar
+Source44  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.pom
+Source45  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.jar
+Source46  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.pom
+Source47  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.jar
+Source48  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.pom
+Source49  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.jar
+Source50  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.pom
+Source51  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.jar
+Source52  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.pom
+Source53  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.jar
+Source54  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.pom
+Source55  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.jar
+Source56  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.pom
+Source57  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.jar
+Source58  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.pom
+Source59  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.jar
+Source60  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.pom
+Source61  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.jar
+Source62  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.pom
+Source63  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.jar
+Source64  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.pom
+Source65  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar
+Source66  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.pom
+Source67  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.18.v20190429/jetty-util-9.4.18.v20190429.jar
+Source68  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.18.v20190429/jetty-util-9.4.18.v20190429.pom
+Source69  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar
+Source70  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.jar
+Source71  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.jar
+Source72  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
+Source73  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.jar
+Source74  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.pom
+Source75  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.jar
+Source76  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.pom
+Source77  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.jar
+Source78  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.pom
+Source79  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.jar
+Source80  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.pom
+Source81  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.jar
+Source82  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.pom
+Source83  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
+Source84  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom
+Source85  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom
+Source86  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar
+Source87  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom
+Source88  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518/javax.servlet-2.5.0.v201103041518.pom
+Source89  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+Source90  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+Source91  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+Source92  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar
+Source93  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.pom
+Source94  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar
+Source95  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.pom
+Source96  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar
+Source97  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom
+Source98  : https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
+Source99  : https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar
+Source100  : https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
+Source101  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar
+Source102  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.pom
+Source103  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.jar
+Source104  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.pom
+Source105  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.jar
+Source106  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.pom
+Source107  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.jar
+Source108  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.pom
+Source109  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.jar
+Source110  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.pom
+Source111  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.jar
+Source112  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.pom
+Source113  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.jar
+Source114  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.pom
+Source115  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.jar
+Source116  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.pom
+Source117  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.jar
+Source118  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.pom
+Source119  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar
+Source120  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.pom
+Source121  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.jar
+Source122  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.pom
+Source123  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.jar
+Source124  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.pom
+Source125  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.jar
+Source126  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.pom
+Source127  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.jar
+Source128  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.pom
+Source129  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.jar
+Source130  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.pom
+Source131  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.jar
+Source132  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.pom
+Source133  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.jar
+Source134  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.pom
+Source135  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.jar
+Source136  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.pom
+Source137  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom
+Source138  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.pom
+Source139  : https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
+Source140  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
+Source141  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
+Source142  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+Source143  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom
+Source144  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
+Source145  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+Source146  : https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+Source147  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
+Source148  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
+Source149  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
+Source150  : https://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
+Source151  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
+Source152  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source153  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+Source154  : https://repo1.maven.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -202,413 +212,443 @@ cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.12.v20180830
 cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.12.v20180830/jetty-continuation-9.4.12.v20180830.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429/jetty-continuation-9.4.18.v20190429.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429/jetty-continuation-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.pom
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.jar
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.18.v20190429
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.18.v20190429/jetty-http-9.4.18.v20190429.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.18.v20190429
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.18.v20190429/jetty-http-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.pom
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.pom
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.18.v20190429
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.18.v20190429/jetty-io-9.4.18.v20190429.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.18.v20190429
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.18.v20190429/jetty-io-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.jar
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.jar
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/7.0.1.v20091125
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/7.0.1.v20091125/jetty-project-7.0.1.v20091125.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/7.0.1.v20091125/jetty-project-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.2.12.v20150709
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.2.12.v20150709/jetty-project-9.2.12.v20150709.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.2.12.v20150709/jetty-project-9.2.12.v20150709.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.2.24.v20180105
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.2.24.v20180105/jetty-project-9.2.24.v20180105.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.2.24.v20180105/jetty-project-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.3.19.v20170502
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.3.19.v20170502/jetty-project-9.3.19.v20170502.pom
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.3.19.v20170502/jetty-project-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.3.24.v20180605
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.3.24.v20180605/jetty-project-9.3.24.v20180605.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.3.24.v20180605/jetty-project-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.4.12.v20180830
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.4.12.v20180830/jetty-project-9.4.12.v20180830.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.4.12.v20180830/jetty-project-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.4.18.v20190429
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.4.18.v20190429/jetty-project-9.4.18.v20190429.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-project/9.4.18.v20190429/jetty-project-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.jar
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-proxy/9.4.12.v20180830/jetty-proxy-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/7.0.1.v20091125
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.jar
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/7.0.1.v20091125
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.pom
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/7.0.1.v20091125/jetty-security-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.jar
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.18.v20190429
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.18.v20190429/jetty-security-9.4.18.v20190429.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.18.v20190429
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.18.v20190429/jetty-security-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.pom
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.12.v20180830
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.jar
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.12.v20180830
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.12.v20180830/jetty-server-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.18.v20190429
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.jar
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.18.v20190429
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.pom
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.4.18.v20190429/jetty-server-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.jar
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.pom
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/7.0.1.v20091125/jetty-servlet-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.jar
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.pom
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.12.v20180830/jetty-servlet-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.jar
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.18.v20190429/jetty-servlet-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.jar
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.pom
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.2.24.v20180105/jetty-servlets-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.jar
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.pom
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.12.v20180830/jetty-servlets-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.jar
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.pom
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.18.v20190429/jetty-servlets-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.jar
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.pom
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.3.24.v20180605/jetty-util-ajax-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/7.0.1.v20091125
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.jar
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/7.0.1.v20091125
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.pom
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/7.0.1.v20091125/jetty-util-7.0.1.v20091125.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.pom
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.18.v20190429
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.18.v20190429/jetty-util-9.4.18.v20190429.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.18.v20190429
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.18.v20190429/jetty-util-9.4.18.v20190429.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.jar
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.jar
+cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
+cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.jar
+cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.pom
+cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.12.v20180830/jetty-webapp-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.24.v20180105
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.jar
+cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.24.v20180105
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.pom
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.2.24.v20180105/jetty-xml-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.19.v20170502
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.jar
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.19.v20170502
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.pom
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.19.v20170502/jetty-xml-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.24.v20180605
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.jar
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.24.v20180605
-cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.3.24.v20180605/jetty-xml-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830
-cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.jar
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830
-cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.12.v20180830/jetty-xml-9.4.12.v20180830.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821
-cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821
-cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom
+cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp.jstl/1.2.0.v201105211821/javax.servlet.jsp.jstl-1.2.0.v201105211821.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820
-cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom
+cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.1.0.v201105211820/javax.servlet.jsp-2.1.0.v201105211820.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158
-cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar
+cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158
-cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom
+cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet.jsp/2.2.0.v201112011158/javax.servlet.jsp-2.2.0.v201112011158.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518
-cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518/javax.servlet-2.5.0.v201103041518.pom
+cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/2.5.0.v201103041518/javax.servlet-2.5.0.v201103041518.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016
-cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/jetty-orbit/1
-cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709
-cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar
+cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709
-cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.pom
+cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709
-cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar
+cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709
-cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.pom
+cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709
-cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar
+cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709
-cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom
+cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709
-cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
+cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/websocket/websocket-parent/9.2.12.v20150709/websocket-parent-9.2.12.v20150709.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25
-cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar
+cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25
-cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
+cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.25/jetty-util-6.1.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105
-cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar
+cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105
-cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.pom
+cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.19.v20170502
-cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.jar
+cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.19.v20170502
-cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.pom
+cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.19.v20170502/jetty-http-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605
-cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.jar
+cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605
-cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.pom
+cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.24.v20180105
-cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.jar
+cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.24.v20180105
-cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.pom
+cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.24.v20180105/jetty-io-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.19.v20170502
-cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.jar
+cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.19.v20170502
-cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.pom
+cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.19.v20170502/jetty-io-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605
-cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.jar
+cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605
-cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.pom
+cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.2.24.v20180105
-cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.jar
+cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.2.24.v20180105
-cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.pom
+cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.2.24.v20180105/jetty-security-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.19.v20170502
-cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.jar
+cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.19.v20170502
-cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.pom
+cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.19.v20170502/jetty-security-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605
-cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.jar
+cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605
-cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.pom
+cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105
-cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar
+cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105
-cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.pom
+cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.19.v20170502
-cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.jar
+cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.19.v20170502
-cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.pom
+cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.19.v20170502/jetty-server-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.24.v20180605
-cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.jar
+cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.24.v20180605
-cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.pom
+cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.3.24.v20180605/jetty-server-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105
-cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.jar
+cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105
-cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.pom
+cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.24.v20180105/jetty-servlet-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502
-cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.jar
+cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502
-cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.pom
+cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.19.v20170502/jetty-servlet-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605
-cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.jar
+cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605
-cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.pom
+cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.24.v20180605/jetty-servlet-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.2.24.v20180105
-cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.jar
+cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.2.24.v20180105
-cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.pom
+cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.2.24.v20180105/jetty-util-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.19.v20170502
-cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.jar
+cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.19.v20170502
-cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.pom
+cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.19.v20170502/jetty-util-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605
-cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.jar
+cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605
-cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.pom
+cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105
-cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom
+cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502
-cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.pom
+cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605
-cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
+cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.24.v20180605/jetty-webapp-9.3.24.v20180605.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26
-cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
+cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26
-cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
+cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26
-cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26
-cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom
+cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25
-cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
+cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.25/jetty-6.1.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26
-cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+cp %{SOURCE145} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26
-cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+cp %{SOURCE146} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14
-cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
+cp %{SOURCE147} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14
-cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
+cp %{SOURCE148} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14
-cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
+cp %{SOURCE149} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14
-cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
+cp %{SOURCE150} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14
-cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
+cp %{SOURCE151} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.14/project-6.1.14.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25
-cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+cp %{SOURCE152} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25
-cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
+cp %{SOURCE153} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.25/project-6.1.25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26
-cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+cp %{SOURCE154} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
 
 
 %files
@@ -624,6 +664,8 @@ cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/pro
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.2.24.v20180105/jetty-continuation-9.2.24.v20180105.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.12.v20180830/jetty-continuation-9.4.12.v20180830.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.12.v20180830/jetty-continuation-9.4.12.v20180830.pom
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429/jetty-continuation-9.4.18.v20190429.jar
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.18.v20190429/jetty-continuation-9.4.18.v20190429.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/7.0.1.v20091125/jetty-http-7.0.1.v20091125.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.2.24.v20180105/jetty-http-9.2.24.v20180105.jar
@@ -634,6 +676,8 @@ cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/pro
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.3.24.v20180605/jetty-http-9.3.24.v20180605.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.12.v20180830/jetty-http-9.4.12.v20180830.pom
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.18.v20190429/jetty-http-9.4.18.v20190429.jar
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-http/9.4.18.v20190429/jetty-http-9.4.18.v20190429.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/7.0.1.v20091125/jetty-io-7.0.1.v20091125.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.pom
@@ -645,6 +689,8 @@ cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/pro
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.3.24.v20180605/jetty-io-9.3.24.v20180605.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.12.v20180830/jetty-io-9.4.12.v20180830.pom
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.18.v20190429/jetty-io-9.4.18.v20190429.jar
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-io/9.4.18.v20190429/jetty-io-9.4.18.v20190429.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.12.v20180830/jetty-jndi-9.4.12.v20180830.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.12.v20180830/jetty-plus-9.4.12.v20180830.jar
@@ -668,6 +714,8 @@ cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/pro
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.3.24.v20180605/jetty-security-9.3.24.v20180605.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.12.v20180830/jetty-security-9.4.12.v20180830.pom
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.18.v20190429/jetty-security-9.4.18.v20190429.jar
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-security/9.4.18.v20190429/jetty-security-9.4.18.v20190429.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/7.0.1.v20091125/jetty-server-7.0.1.v20091125.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-server/9.2.24.v20180105/jetty-server-9.2.24.v20180105.jar
@@ -710,6 +758,8 @@ cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/org/mortbay/jetty/pro
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.3.24.v20180605/jetty-util-9.3.24.v20180605.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.12.v20180830/jetty-util-9.4.12.v20180830.pom
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.18.v20190429/jetty-util-9.4.18.v20190429.jar
+/usr/share/java/.m2/repository/org/eclipse/jetty/jetty-util/9.4.18.v20190429/jetty-util-9.4.18.v20190429.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.jar
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.2.24.v20180105/jetty-webapp-9.2.24.v20180105.pom
 /usr/share/java/.m2/repository/org/eclipse/jetty/jetty-webapp/9.3.19.v20170502/jetty-webapp-9.3.19.v20170502.jar
